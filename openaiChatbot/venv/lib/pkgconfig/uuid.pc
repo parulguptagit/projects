@@ -1,0 +1,11 @@
+prefix=/home/parul/pythonAi/projects/openaiChatbot/venv
+exec_prefix=/home/parul/pythonAi/projects/openaiChatbot/venv
+libdir=/home/parul/pythonAi/projects/openaiChatbot/venv/lib
+includedir=/home/parul/pythonAi/projects/openaiChatbot/venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
